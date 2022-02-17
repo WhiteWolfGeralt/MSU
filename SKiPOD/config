@@ -1,0 +1,14 @@
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o abc.%J.out
+#BSUB -e abc.%J.err
+
+OMP_NUM_THREADS=1 mpiexec ./a.out
+OMP_NUM_THREADS=2 mpiexec ./a.out
+OMP_NUM_THREADS=4 mpiexec ./a.out
+OMP_NUM_THREADS=8 mpiexec ./a.out
+OMP_NUM_THREADS=16 mpiexec ./a.out
+OMP_NUM_THREADS=32 mpiexec ./a.out
+OMP_NUM_THREADS=64 mpiexec ./a.out
+OMP_NUM_THREADS=128 mpiexec ./a.out
