@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def evaluate_measures(sample):
     """Calculate measure of split quality (each node separately).
 
@@ -19,5 +20,18 @@ def evaluate_measures(sample):
         'error': 0.6
     }
     """
-    measures = {'gini': float(len(sample)), 'entropy': float(sum(sample)), 'error': float(max(sample))}
+    sample = np.array(sample)
+    measures = {'gini': 0, 'entropy': 0, 'error': 0}
+
+    _, counts = np.unique(sample, return_counts=True)
+    freq = counts / sum(counts)
+
+    measures['gini'] = sum(freq * (np.ones(len(freq)) - freq))
+    measures['entropy'] = -sum(freq * np.log(freq))
+    measures['error'] = 1 - max(freq)
+
     return measures
+
+
+if __name__ == '__main__':
+    print(evaluate_measures([1, 2, 3, 2, 3, 1, 2, 0]))
