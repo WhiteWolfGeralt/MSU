@@ -1,9 +1,12 @@
 import os
 
-from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import ExtraTreesRegressor
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.pipeline import Pipeline
+from sklearn.model_selection import GridSearchCV
 
 import numpy as np
+import pandas as pd
 
 class PotentialTransformer:
     """
@@ -30,12 +33,30 @@ class PotentialTransformer:
         """
         return self.transform(x)
 
+    def move(self, x):
+        test = pd.DataFrame(x)
+        list_column = []
+        list_row = []
+        for i in range(256):
+            if np.min(test.iloc[i]) <= 2:
+                list_row.append(i)
+        for i in range(256):
+            if np.min(test.iloc[:, i]) <= 2:
+                list_column.append(i)
+        pos_column = round((list_column[-1] + list_column[0]) / 2)
+        pos_row = round((list_row[-1] + list_row[0]) / 2)
+        test = np.roll(test, 128 - pos_row, axis=0)
+        test = np.roll(test, 128 - pos_column, axis=1)
+        return test
+
     def transform(self, x):
         """
         Transform the list of potential's 2d matrices with the trained transformer.
         :param x: list of potential's 2d matrices
         :return: transformed potentials (list of 1d vectors)
         """
+        for i in range(0, len(x)):
+            x[i] = self.move(x[i])
         return x.reshape((x.shape[0], -1))
 
 def load_dataset(data_dir):
@@ -61,9 +82,24 @@ def train_model_and_predict(train_dir, test_dir):
     _, X_train, Y_train = load_dataset(train_dir)
     test_files, X_test, _ = load_dataset(test_dir)
     # it's suggested to modify only the following line of this function
-    regressor = Pipeline([('vectorizer', PotentialTransformer()), ('decision_tree', DecisionTreeRegressor())])
-    regressor.fit(X_train, Y_train)
-    predictions = regressor.predict(X_test)
+    transform = PotentialTransformer()
+    X_train = transform.transform(X_train)
+    X_test = transform.transform(X_test)
+    regressor = ExtraTreesRegressor(n_estimators=300, n_jobs=-1, criterion="mae")
+    param_grid = {
+        'max_depth': range(30, 71, 5),
+        'max_features': range(30, 91, 10),
+    }
+    search = GridSearchCV(regressor, param_grid, cv=3, n_jobs=-1)
+    search.fit(X_train, Y_train)
+
+    best = ExtraTreesRegressor(n_estimators=3000,
+                               max_depth=search.best_params_['max_depth'],
+                               max_features=search.best_params_['max_features'],
+                               n_jobs=-1,
+                               criterion="mae")
+    best.fit(X_train, Y_train)
+    predictions = best.predict(X_test)
     return {file: value for file, value in zip(test_files, predictions)}
 
 
