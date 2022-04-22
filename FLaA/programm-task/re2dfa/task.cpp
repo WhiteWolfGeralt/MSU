@@ -142,52 +142,52 @@ DFA DFACreator::create(const string &regExpr) {
 
 vector<DFACreator::Node *> DFACreator::prepareRE(const string &s) {
 	auto ret = vector<Node *>();
-	ret.push_back((Node *) new Operator(LBRACKET));
-	char prevChar = '\0';
+	ret.push_back(new Operator(LBRACKET));
+	char prevChar = '(';
 
 	for (char currChar: s) {
-		if ((isalpha(currChar) && (isalpha(prevChar) || prevChar == '*')) ||
-			(currChar == '(' && (prevChar == ')' || prevChar == '*'))) {
-			ret.push_back((Node *) new Operator(CONCAT));
+		if ((isalpha(currChar) && (isalpha(prevChar) || prevChar == '*' || prevChar == ')')) ||
+			(currChar == '(' && (prevChar == ')' || prevChar == '*' || isalpha(prevChar)))) {
+			ret.push_back(new Operator(CONCAT));
 		}
 
 		if ((prevChar == '(' && (currChar == ')' || currChar == '|' || currChar == '*')) ||
 			(prevChar == '|' && (currChar == '|' || currChar == ')' || currChar == '*'))) {
 			auto *epsilon = new Operand(EPSILON, 'e');
 			epsilon->isNullable = true;
-			ret.push_back((Node *) epsilon);
+			ret.push_back(epsilon);
 		}
 
 		switch (currChar) {
 			case '(': {
-				ret.push_back((Node *) new Operator(LBRACKET));
+				ret.push_back(new Operator(LBRACKET));
 				break;
 			}
 			case ')': {
-				ret.push_back((Node *) new Operator(RBRACKET));
+				ret.push_back(new Operator(RBRACKET));
 				break;
 			}
 			case '*': {
-				ret.push_back((Node *) new Operator(ITER));
+				ret.push_back(new Operator(ITER));
 				break;
 			}
 			case '|': {
-				ret.push_back((Node *) new Operator(ALTER));
+				ret.push_back(new Operator(ALTER));
 				break;
 			}
 			default: {
 				int number = DFACreator::SymbolPool::addSymbol(currChar);
-				ret.push_back((Node *) new Operand(SYMBOL, number));
+				ret.push_back(new Operand(SYMBOL, number));
 				break;
 			}
 		}
 		prevChar = currChar;
 	}
-	ret.push_back((Node *) new Operator(RBRACKET));
-	ret.push_back((Node *) new Operator(CONCAT));
+	ret.push_back(new Operator(RBRACKET));
+	ret.push_back(new Operator(CONCAT));
 	int number = DFACreator::SymbolPool::addSymbol('#');
 	DFACreator::finishPos = number;
-	ret.push_back((Node *) new Operand(END, number));
+	ret.push_back(new Operand(END, number));
 	return ret;
 }
 
@@ -220,7 +220,7 @@ DFACreator::Node *DFACreator::buildTree(const vector<Node *> &regExp) {
 					operandStack.pop();
 
 					markNullable(operation);
-					operandStack.push((Node *) operation);
+					operandStack.push(operation);
 				}
 				operationStack.pop();
 				break;
@@ -233,7 +233,7 @@ DFACreator::Node *DFACreator::buildTree(const vector<Node *> &regExp) {
 				operandStack.pop();
 
 				markNullable(starNode);
-				operandStack.push((Node *) starNode);
+				operandStack.push(starNode);
 				break;
 			}
 
@@ -249,7 +249,7 @@ DFACreator::Node *DFACreator::buildTree(const vector<Node *> &regExp) {
 					operandStack.pop();
 
 					markNullable(concatNode);
-					operandStack.push((Node *) concatNode);
+					operandStack.push(concatNode);
 					break;
 				}
 				operationStack.push(token);
@@ -273,7 +273,7 @@ DFACreator::Node *DFACreator::buildTree(const vector<Node *> &regExp) {
 		operandStack.pop();
 
 		markNullable(operation);
-		operandStack.push((Node *) operation);
+		operandStack.push(operation);
 	}
 
 	return operandStack.top();
