@@ -146,13 +146,13 @@ vector<DFACreator::Node *> DFACreator::prepareRE(const string &s) {
 	char prevChar = '(';
 
 	for (char currChar: s) {
-		if ((isalpha(currChar) && (isalpha(prevChar) || prevChar == '*' || prevChar == ')')) ||
-			(currChar == '(' && (prevChar == ')' || prevChar == '*' || isalpha(prevChar)))) {
+		if ((isalnum(currChar) && (isalnum(prevChar) || prevChar == '*' || prevChar == ')')) ||
+		    (currChar == '(' && (prevChar == ')' || prevChar == '*' || isalnum(prevChar)))) {
 			ret.push_back(new Operator(CONCAT));
 		}
 
 		if ((prevChar == '(' && (currChar == ')' || currChar == '|' || currChar == '*')) ||
-			(prevChar == '|' && (currChar == '|' || currChar == ')' || currChar == '*'))) {
+		    (prevChar == '|' && (currChar == '|' || currChar == ')' || currChar == '*'))) {
 			auto *epsilon = new Operand(EPSILON, 'e');
 			epsilon->isNullable = true;
 			ret.push_back(epsilon);
@@ -188,6 +188,39 @@ vector<DFACreator::Node *> DFACreator::prepareRE(const string &s) {
 	int number = DFACreator::SymbolPool::addSymbol('#');
 	DFACreator::finishPos = number;
 	ret.push_back(new Operand(END, number));
+	bool a = false;
+	if (a) {
+		for (auto b : ret) {
+			switch (b->operation) {
+				case EPSILON:
+					std::cout << "eps";
+					break;
+				case END:
+					std::cout << "end";
+					break;
+				case SYMBOL:
+					std::cout << "sym";
+					break;
+				case CONCAT:
+					std::cout << ".";
+					break;
+				case ALTER:
+					std::cout << "|";
+					break;
+				case ITER:
+					std::cout << "*";
+					break;
+				case LBRACKET:
+					std::cout << "(";
+					break;
+				case RBRACKET:
+					std::cout << ")";
+					break;
+			}
+			std::cout << ' ';
+		}
+		std::cout << '\n';
+	}
 	return ret;
 }
 
@@ -250,7 +283,6 @@ DFACreator::Node *DFACreator::buildTree(const vector<Node *> &regExp) {
 
 					markNullable(concatNode);
 					operandStack.push(concatNode);
-					break;
 				}
 				operationStack.push(token);
 				break;
@@ -289,7 +321,7 @@ void DFACreator::markNullable(DFACreator::Node *node) {
 	}
 	auto op = (Operator *) node;
 	bool left = op->leftList->isNullable,
-		right = op->rightList->isNullable;
+			right = op->rightList->isNullable;
 	if (op->operation == CONCAT) {
 		op->isNullable = (left and right);
 	} else {
@@ -480,12 +512,12 @@ void DFACreator::buildDFA(DFACreator::Node *root, DFA &res) {
 				statesPool[newState] = count;
 				statesMarks[newState] = false;
 				res.create_state(to_string(count), isFinish);
-				res.set_trans(to_string(statesPool.find(currState)->second),symbol, to_string(count));
+				res.set_trans(to_string(statesPool.find(currState)->second),symbol, to_string(statesPool.find(newState)->second));
+				count++;
 			} else { //state already exists
 				int oldState = statesPool[findState->first];
 				res.set_trans(to_string(statesPool.find(currState)->second), symbol, to_string(oldState));
 			}
-			count++;
 		}
 
 		for (const auto& states : statesMarks) {
