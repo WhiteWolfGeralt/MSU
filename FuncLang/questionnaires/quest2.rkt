@@ -9,8 +9,7 @@
             curr
             (+ prev curr)
             (if (odd? curr) (cons curr result) result)
-        )
-        )
+        ))
     )
 )
 
