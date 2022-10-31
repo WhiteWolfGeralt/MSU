@@ -256,16 +256,15 @@
 )
 
 (define (unioin-answers key)
-  (let loop ((i 0) (result #()))
-    (if (= i (vector-length keywords-structure)) result
-      (loop 
-        (+ i 1)
-        (if (vector-member key (vector-ref (vector-ref keywords-structure i) 0)) 
-          (vector-append result (vector-ref (vector-ref keywords-structure i) 1))
-          result
-        )
+  (vector-foldl
+    (lambda (i res el)
+      (if (vector-member key (vector-ref el 0)) 
+        (vector-append res (vector-ref el 1))
+        res
       )
-    )   
+    )
+    #()
+    keywords-structure
   )
 )
 
@@ -331,14 +330,8 @@
 )
 
 (define (get-strategy user-response history)
-  (vector-foldl
-    (lambda (i res el)
-      (if ((vector-ref el 0) user-response history) 
-        (vector-append res (vector el)) 
-        res
-      )
-    )
-    #()
+  (vector-filter
+    (lambda (el) ((vector-ref el 0) user-response history))
     strategy-storage
   )
 )
@@ -395,4 +388,4 @@
   )
 )
 
-(visit-doctor-v2 'stop 4)
+;(visit-doctor-v2 'stop 4)
