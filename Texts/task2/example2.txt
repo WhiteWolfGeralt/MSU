@@ -1,0 +1,411 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html dir="ltr" lang="ru" prefix="og: http://ogp.me/ns# video: http://ogp.me/ns/video# ya: http://webmaster.yandex.ru/vocabularies/" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/">
+
+<body>
+<div>
+<a class="top_mobile" href="https://kinopoisk.onelink.me/2556078383?pid=Kinopoisk_main&amp;c=Orange_Banner" id="mobile_link" style="display: none">Установите мобильное приложение Кинопоиск</a>
+</div>
+<div id="n1b0yh48n3il81zh7xiegkjv">
+<div id="partial_component__header-topline"><div class="toaster-containernztet0nqxelcib9of6d" data-tid="e7b67fbd"></div><div class="promonztet0nqxelcib9of6d" data-tid="dd5f0271" style="bottom:40px"><div class="nzn7ur nzn7ur_theme_default" data-tid="2cff2d30"><div class="nzn7ur__container" id="ni2koi7wpdukvs70ifsyp77d"></div></div><span class="promonztet0nqxelcib9of6d__close"></span></div></div>
+</div>
+<main class="page-content">
+<div id="noznlcqd7t5z75d"></div>
+<div id="njne">
+
+
+</div>
+<div class="n33f2griqgvazl65z31ugweags9pa8eh">
+<div class="nbmpg282mgx8z9e5argnv1de">
+
+</div>
+</div>
+
+<div class="shadow shadow-restyle nq2odqkc">
+<div class="n03826d1wzkbd24" id="nczy53504v7g8m" style="background-color: #fff; min-height: 850px">
+<table cellpadding="0" cellspacing="0" style="background-color: #fff; width: 850px; margin: 24px auto 0">
+<tr>
+<td style="padding-right:20px;padding-top:10px" valign="top" width="100%">
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td height="60" style="padding:10 0px">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="padding-left:20px" valign="top"><h1 class="level2">Сезоны</h1></td>
+<td valign="top" width="25"><h1 class="slash"> / </h1></td>
+<td><h1 class="level2"><a class="all" href="/series/1309707/">Тед Лассо (3)</a></h1></td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td class="news">Ted Lasso, 2020</td>
+</tr>
+</table>
+</td></tr>
+<tr><td valign="top">
+<form accept-charset="cp1251" action="" id="hidden_form" method="post" name="hidden_form">
+<input name="is_submit" type="hidden" value="1"/>
+<input id="hidden_subscribe" name="subscribe" type="hidden" value=""/>
+</form>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td colspan="2">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" bgcolor="#f2f2f2" class="border-tb" height="30" style="padding-left:15px">
+<a class="all" href="/series/1309707/">Информация o сериале »</a>
+</td>
+</tr>
+<tr><td><br/></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="padding-left:20px">
+<div class="film_signup">
+<span>
+<input id="btn_subscribe" style="background-position: 90px 6px; padding-left: 22px" type="button" value="напомнить"/>
+</span>
+<i>                            в день выхода новой серии<br/>вы получите соответствующее<br/>автоуведомление
+                        </i>
+</div>
+<br/>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="news" style="vertical-align: top; padding: 3px 0" width="80"><b>Сезоны:</b></td>
+<td style="vertical-align: top; padding: 3px 0">
+<div style="width: 270px">
+<div class="season_item"><a class="all" href="#s1">1</a></div>
+<div class="season_item"><a class="all" href="#s2">2</a></div>
+<div class="season_item"><a class="all" href="#s3">3</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="news" style="vertical-align: top; padding: 3px 0"><b>Годы:</b></td>
+<td style="vertical-align: top; padding: 3px 0">
+<div style="width: 320px">
+<div style="background: #f2f2f2; text-align: center; float: left; margin: 0 2px 2px 0; padding: 3px 6px"><a class="all" href="#y2020">2020</a></div>
+<div style="background: #f2f2f2; text-align: center; float: left; margin: 0 2px 2px 0; padding: 3px 6px"><a class="all" href="#y2021">2021</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="news"><b>Эпизоды:</b></td>
+<td>
+<table border="0" cellpadding="3" cellspacing="2">
+<tr>
+<td class="news">32</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="news" style="padding-top:4px" valign="top"><b>Время:</b></td>
+<td>
+<table border="0" cellpadding="3" cellspacing="2">
+<tr>
+<td class="news">16 часов — 960 мин.<br/></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<a name="s1"></a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="news" colspan="2" style="color:#777;padding:10px 0px;border-bottom:3px solid #ccc"><h1 class="moviename-big" style="font-size:21px;padding:0px;margin:0px;color:#f60">Сезон 1</h1>
+                        2020, эпизодов: 10
+                    </td>
+</tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<a name="y2020"></a> <span style="color:#777">Эпизод 1</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Pilot</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">14 августа 2020</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 2</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Biscuits</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">14 августа 2020</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 3</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Trent Crimm: The Independent</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">14 августа 2020</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 4</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>For the Children</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">21 августа 2020</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 5</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Tan Lines</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">28 августа 2020</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 6</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Two Aces</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">4 сентября 2020</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 7</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Make Rebecca Great Again</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">11 сентября 2020</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 8</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>The Diamond Dogs</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">18 сентября 2020</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 9</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>All Apologies</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">25 сентября 2020</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 10</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>The Hope That Kills You</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">2 октября 2020</td>
+</tr>
+</table>
+<a name="s2"></a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="news" colspan="2" style="color:#777;padding:10px 0px;border-bottom:3px solid #ccc"><h1 class="moviename-big" style="font-size:21px;padding:0px;margin:0px;color:#f60">Сезон 2</h1>
+                        2021, эпизодов: 12
+                    </td>
+</tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<a name="y2021"></a> <span style="color:#777">Эпизод 1</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Goodbye Earl</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">23 июля 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 2</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Lavender</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">30 июля 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 3</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Do the Right-est Thing</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">6 августа 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 4</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Carol of the Bells</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">13 августа 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 5</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Rainbow</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">20 августа 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 6</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>The Signal</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">27 августа 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 7</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Headspace</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">3 сентября 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 8</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Man City</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">10 сентября 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 9</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Beard After Hours</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">17 сентября 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 10</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>No Weddings and a Funeral</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">24 сентября 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 11</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Midnight Train to Royston</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">1 октября 2021</td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 12</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Inverting the Pyramid of Success</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%">8 октября 2021</td>
+</tr>
+</table>
+<a name="s3"></a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="news" colspan="2" style="color:#777;padding:10px 0px;border-bottom:3px solid #ccc"><h1 class="moviename-big" style="font-size:21px;padding:0px;margin:0px;color:#f60">Сезон 3</h1>
+                        эпизодов: 10
+                    </td>
+</tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 1</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Эпизод #3.1</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%"> </td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 2</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Эпизод #3.2</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%"> </td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 3</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Эпизод #3.3</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%"> </td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 4</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Эпизод #3.4</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%"> </td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 5</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Эпизод #3.5</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%"> </td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 6</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Эпизод #3.6</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%"> </td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 7</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Эпизод #3.7</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%"> </td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 8</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Эпизод #3.8</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%"> </td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 9</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Эпизод #3.9</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%"> </td>
+</tr>
+<tr>
+<td class="news" style="border-bottom:1px dotted #ccc;padding:10px 0px" width="80%">
+<span style="color:#777">Эпизод 10</span><br/>
+<h1 class="moviename-big" style="font-size:16px;padding:0px;color:#444"><b>Эпизод #3.10</b></h1>
+</td>
+<td align="left" class="news" style="border-bottom:1px dotted #ccc;padding:15px 0px;font-size:12px" valign="bottom" width="20%"> </td>
+</tr>
+</table>
+<br><br><br><br><br>
+</br></br></br></br></br></br></td>
+</tr>
+</table>
+</td>
+</tr></table>
+</td>
+<!-- Правая сторона -->
+<!-- / Правая сторона -->
+</tr>
+</table>
+</div> <!-- content block -->
+<div id="footer_wrapper">
+<div class="clearfix" data-metrika="other" id="last_film">
+<h5>Вы недавно смотрели</h5>
+<ul class="clearfix">
+<li><a data-metrika="recommender" href="/series/404900/" title="Во все тяжкие (Breaking Bad, 2008)">
+
+</a></li>
+<li><a data-metrika="recommender" href="/series/77044/" title="Друзья (Friends, 1994)">
+
+</a></li>
+<li><a data-metrika="recommender" href="/series/591929/" title="Гравити Фолз (Gravity Falls, 2012)">
+
+</a></li>
+</ul>
+</div>
+
+<div id="partial_component__footer"><div class="partial-component-layout" data-tid="1014704"></div></div>
+</div> <!-- END of footer -->
+</div> <!-- shadow block -->
+</main>
+</body></html>
+<!-- Yandex.Metrika counter -->
+
+<noscript>
+<div></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+
+
+
